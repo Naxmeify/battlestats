@@ -2,6 +2,8 @@ language: node_js
 node_js:
 - '4.2'
 # - '5.1'
+services:
+- mongodb
 before_script:
 - npm i -g codeclimate-test-reporter
 - npm i -g istanbul

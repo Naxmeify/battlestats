@@ -1,0 +1,19 @@
+{
+    "restartable": "rs",
+    "watch": ["server.js", "index.js", "app"],
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "app/**/assets",
+        "app/**/public",
+        "test",
+        "bin"
+    ],
+    "quite": true,
+    "verbose": false,
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "battlestats,battlestats:*"
+    },
+    "ext": "js coffee json"
+}

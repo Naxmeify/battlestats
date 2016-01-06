@@ -29,3 +29,7 @@ node_modules
 # MongoDB Data Folder
 data/*
 !data/.keep
+
+# Ignore Vendored Assets
+app/assets/vendor/*
+!app/assets/vendor/.keep

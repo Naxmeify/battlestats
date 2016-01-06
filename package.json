@@ -25,6 +25,8 @@
     "async": "^1.5.1",
     "body-parser": "^1.14.2",
     "coffee-script": "^1.10.0",
+    "connect-mincer": "^1.1.0",
+    "connect-mongo": "^1.1.0",
     "cookie-parser": "^1.4.0",
     "debug": "^2.2.0",
     "express": "^4.13.3",
@@ -32,10 +34,16 @@
     "flash": "^1.1.0",
     "i18n": "^0.5.0",
     "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mincer": "^1.4.0",
     "mongoose": "^4.3.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-schema-extend": "^0.2.0",
+    "morgan": "^1.6.1",
     "passport": "^0.3.2",
     "passport-bnet": "^1.1.1",
-    "sonea-utils": "0.0.3"
+    "serve-favicon": "^2.3.0",
+    "sonea-utils": "^0.0.4"
   },
   "devDependencies": {
     "mocha": "^2.3.4",

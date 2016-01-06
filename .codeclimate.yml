@@ -1,0 +1,22 @@
+languages:
+  JavaScript: true
+
+exclude_paths:
+- ".gitignore"
+- ".travis.yml"
+- "LICENSE"
+- "README.md"
+
+engines:
+  coffeelint:
+    enabled: true
+  eslint:
+    enabled: true
+
+  nodesecurity:
+    enabled: false
+  fixme:
+    enabled: false
+
+ratings:
+  paths: []

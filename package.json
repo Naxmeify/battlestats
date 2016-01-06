@@ -21,6 +21,9 @@
     "url": "https://github.com/Naxmeify/battlestats/issues"
   },
   "homepage": "https://github.com/Naxmeify/battlestats#readme",
+  "engines": {
+    "node": "4.2.1"
+  },
   "dependencies": {
     "async": "^1.5.1",
     "body-parser": "^1.14.2",

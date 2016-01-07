@@ -6,6 +6,8 @@ exclude_paths:
 - ".travis.yml"
 - "LICENSE"
 - "README.md"
+- "Procfile"
+- "mongod"
 
 engines:
   coffeelint:

@@ -28,4 +28,11 @@ engines:
     enabled: false
 
 ratings:
-  paths: []
+  paths:
+    - "assets/**/*"
+    - "public/**/*"
+    - "**.js"
+    - "**.coffee"
+    - "**.styl"
+    - "**.less"
+    - "**.jade"

@@ -8,9 +8,10 @@
   "main": "index.js",
   "scripts": {
     "bower": "bower",
+    "precompile": "ems-precompile index.js",
     "postinstall": "npm run bower install && npm run precompile",
     "start": "node index.js",
-    "precompile": "ems-precompile index.js"
+    "test": "mocha test"
   },
   "dependencies": {
     "bower": "^1.7.7",
@@ -21,5 +22,10 @@
     "jst": "0.0.13",
     "less": "1.7.5",
     "stylus": "0.54.2"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "should": "9.0.0",
+    "supertest": "1.2.0"
   }
 }

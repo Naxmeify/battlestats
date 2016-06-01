@@ -9,10 +9,18 @@ exclude_paths:
 - "Procfile"
 
 engines:
+  csslint:
+    enabled: true
   coffeelint:
     enabled: true
   eslint:
     enabled: true
+
+  duplication:
+      enabled: true
+      config:
+        languages:
+          - javascript
 
   nodesecurity:
     enabled: false

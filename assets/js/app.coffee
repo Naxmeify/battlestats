@@ -1,1 +1,5 @@
-console.log "FooBar" for n in [1...10]
+#= require vendor
+
+angular.module 'battlestats', [
+    'ui.router'
+]

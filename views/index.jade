@@ -1,10 +1,10 @@
-html
+html(ng-app="battlestats")
     head
         title battlestats
-        
+
         != css('app.css')
         != js('app.js')
     body
-        h1 battlestats
-        
+        div(ui-view="")
+
         !=LRScript

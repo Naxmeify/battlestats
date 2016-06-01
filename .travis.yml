@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-- '4.2'
-# - '5.1'
+- '4.4'
 services:
 - mongodb
 before_script:
@@ -19,4 +18,4 @@ deploy:
     secure: gFxEw5VjOtsU7o/IN3RfkAGooJly6lur8sVtF+uYwicTNjez9McDASl9/v15fvs/7YYmy1lk1P5rRPuAacbjpuBHfKpIx3Ff8QuFraaJfdZ7N5Qs/Mm9xf7HgUZwABcXEhl6m6Sdr8vspEsvzp3DgUiwvFD9WmVUnbMZf0ApfWf2umOBc/0TilSv/vD/QboHPTNCgA3Uy5/KeL4NanT1cV1avmefK8vliNTfaITWQCP6im5uTdHz3jlnRYRjGAA1soNZLZozTQlSLShNejmwozvEzph0VCYiyL7H1CbPysXRqemG+58rcGUOyMhs1OmhfSURB6Qc64sHRe0u0nbe3k+5WuSTkTrUgl+WZ6FX6cZaO2UpEq5UZVXpQK+9KKNshrABEGceHtITr938KUCVWuvXt7vnFwMJBojsODFxUyNU+decMLglF/cl9zvHVbMm8w+Ubf6nbZNAjW0jxsYIF7XipeAbeRGDMmteiWqTFQBhS7dbhh/teZVQzcz+uvtGteFIemCKajshPcF2yGgF5o2Vzw/jFBHJy+xLvUnqx63cHc1BCO9x0kjJSRsHDkzj+ZXMmBtFzD1a2XwFJRVqwqRNtdIVaqkZC26yeja2wfSKFHfRQ94g2p4pcRIUcDKvITbj0DUnTWDFKh1e5yrBHNkgBWHGW5iQjNsBvpSnTck=
   app: battlestats
   on:
-    repo: Naxmeify/battlestats
+    repo: damncreative/battlestats

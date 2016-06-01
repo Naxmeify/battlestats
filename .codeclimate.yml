@@ -1,5 +1,5 @@
-languages:
-  JavaScript: true
+#languages:
+#  JavaScript: true
 
 exclude_paths:
 - ".gitignore"

@@ -14,7 +14,7 @@
     "postinstall": "npm run build",
     "start": "node index.js",
     "pretest": "npm run build",
-    "test": "mocha test",
+    "test": "npm run test:server",
     "test:assets": "karma start",
     "test:server": "mocha test/server"
   },

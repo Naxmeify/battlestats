@@ -24,7 +24,7 @@
   "dependencies": {
     "bower": "^1.7.7",
     "coffee-script": "1.10.0",
-    "ejs": "2.4.1",
+    "ejs": "3.1.5",
     "express-mincer-spa": "^0.2.4",
     "jade": "1.11.0",
     "jst": "0.0.13",
